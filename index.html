@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cocktail Archive</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">The Cocktail Archive</h1>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <!-- <li><a href="#">Cocktails</a></li> -->
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h2 class="today-cocktail">Today's Choice:</h2> <ul id="cockTail"></ul>
+        </div>
+    </header>
+
+    <main class="container">
+        <ul id="cocktail-list">
+            <!-- Cocktails will be dynamically inserted here -->
+        </ul>
+    </main>
+    <footer>
+    <p> Credit to the cocktail API, They provide a great free API for anyone to use. give them some support: <a href="https://www.thecocktaildb.com/api.php"> https://www.thecocktaildb.com/api.php</a></p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="script.js"></script> 
+</body>
+</html>
